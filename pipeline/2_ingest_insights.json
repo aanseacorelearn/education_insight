@@ -22,7 +22,7 @@
                     },
                     "waitOnCompletion": true,
                     "parameters": {
-                        "URL": "https://raw.githubusercontent.com/microsoft/OpenEduAnalytics/main/modules/module_catalog/Microsoft_Education_Insights/test_data/metadata.csv",
+                        "URL": "https://raw.githubusercontent.com/aanseacorelearn/education_insight/main/test_data/metadata.csv",
                         "workspace": {
                             "value": "@pipeline().parameters.workspace",
                             "type": "Expression"
@@ -75,7 +75,7 @@
                         }
                     },
                     "sparkPool": {
-                        "referenceName": "spark3p2med",
+                        "referenceName": "spark3p2sm",
                         "type": "BigDataPoolReference"
                     },
                     "conf": {
@@ -123,7 +123,7 @@
             },
             {
                 "name": "insights_pre-processing",
-                "description": "This notebook adds a column to the AadGroupMembership table to act as a primary key for ingestion.",
+                "description": "This notebook adds a column to the cohortGraduRateStDistSchoolSubgrp table to act as a primary key for ingestion.",
                 "type": "SynapseNotebook",
                 "dependsOn": [],
                 "policy": {
@@ -156,7 +156,7 @@
                         }
                     },
                     "sparkPool": {
-                        "referenceName": "spark3p2med",
+                        "referenceName": "spark3p2sm",
                         "type": "BigDataPoolReference"
                     },
                     "conf": {
@@ -169,7 +169,7 @@
             },
             {
                 "name": "ingest_insights",
-                "description": "Ingests all tables from Insights data source, except for PersonRelationship and RefTranslation tables (no test data).",
+                "description": "Ingests all tables from Insights data source.",
                 "type": "SynapseNotebook",
                 "dependsOn": [
                     {
@@ -209,7 +209,7 @@
                         }
                     },
                     "sparkPool": {
-                        "referenceName": "spark3p2med",
+                        "referenceName": "spark3p2sm",
                         "type": "BigDataPoolReference"
                     },
                     "conf": {
@@ -225,10 +225,6 @@
             "workspace": {
                 "type": "string",
                 "defaultValue": "dev"
-            },
-            "ingest_k12_or_hed_test_data": {
-                "type": "string",
-                "defaultValue": "hed"
             },
             "version": {
                 "type": "string",
