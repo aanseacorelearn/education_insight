@@ -115,7 +115,7 @@
                             "type": "Expression"
                         },
                         "dbName": {
-                            "value": "@concat('sdb_',pipeline().parameters.workspace,'_s2i_M365_v1p14')",
+                            "value": "@concat('sdb_',pipeline().parameters.workspace,'_s2i_contoso_v0p1')",
                             "type": "Expression"
                         }
                     }
