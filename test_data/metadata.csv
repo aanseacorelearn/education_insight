@@ -1,6 +1,6 @@
 Entity Name,Attribute Name,Attribute Data Type,Pseudonymization
 cohortGraduRateStDistSchoolSubgrp,,,
-,id,string,hash
+,Id,string,hash
 ,Reporting Level,string,no-op
 ,System ID,string,no-op
 ,School ID,string,no-op
@@ -11,7 +11,7 @@ cohortGraduRateStDistSchoolSubgrp,,,
 ,Total Graduated,string,no-op
 ,Graduation Rate,string,no-op
 graduationRatesbySubgroup,,,
-,id,string,hash
+,Id,string,hash
 ,Reporting Level,string,no-op
 ,Reporting Level,string,no-op
 ,System ID,string,no-op

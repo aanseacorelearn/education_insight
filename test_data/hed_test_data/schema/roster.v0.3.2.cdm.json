@@ -1,0 +1,96 @@
+{
+  "jsonSchemaSemanticVersion": "1.2.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "cohortGraduRateStDistSchoolSubgrp",
+      "hasAttributes": [
+        {
+          "name": "Id",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Reporting Level",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System ID",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "School ID",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "System Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "School Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Reporting Label",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Graduation Class Size",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Total Graduated",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Graduation Rate",
+          "dataFormat": "String"
+        }
+      ]
+    },
+    {
+      "entityName": "graduationRatesbySubgroup",
+      "hasAttributes": [
+        {
+          "name": "Id",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Reporting Level",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "Reporting Level",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "System ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "School ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "School Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Reporting Label",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Graduation Rate",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

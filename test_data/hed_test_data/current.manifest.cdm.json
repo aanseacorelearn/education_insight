@@ -1,0 +1,10 @@
+{
+  "manifestName": "current",
+  "subManifests": [
+    {
+      "manifestName": "current.roster.manifest.cdm.json",
+      "definition": "local:/roster/current.roster.manifest.cdm.json"
+    }
+  ],
+  "jsonSchemaSemanticVersion": "1.2.0"
+}
