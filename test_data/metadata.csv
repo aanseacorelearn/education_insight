@@ -13,7 +13,6 @@ cohortGraduRateStDistSchoolSubgrp,,,
 graduationRatesbySubgroup,,,
 ,Id,string,hash
 ,Reporting Level,string,no-op
-,Reporting Level,string,no-op
 ,System ID,string,no-op
 ,School ID,string,no-op
 ,System Name,string,no-op
