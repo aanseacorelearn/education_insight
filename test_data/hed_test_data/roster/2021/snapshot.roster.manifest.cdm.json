@@ -26,19 +26,6 @@
       ]
     }
   ],
-  "relationships": [
-    {
-      "fromEntity": "local:/schema/roster.v0.3.2.cdm.json/cohortGraduRateStDistSchoolSubgrpMapping",
-      "fromEntityAttribute": "Id",
-      "toEntity": "local:/schema/roster.v0.3.2.cdm.json/cohortGraduRateStDistSchoolSubgrp",
-      "toEntityAttribute": "Id"
-    },
-    {
-      "fromEntity": "local:/schema/roster.v0.3.2.cdm.json/graduationRatesbySubgroupMapping",
-      "fromEntityAttribute": "Id",
-      "toEntity": "local:/schema/roster.v0.3.2.cdm.json/graduationRatesbySubgroup",
-      "toEntityAttribute": "Id"
-    }
-  ],
+  "relationships": [],
   "jsonSchemaSemanticVersion": "1.2.0"
 }
